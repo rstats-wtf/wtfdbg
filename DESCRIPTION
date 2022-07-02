@@ -1,10 +1,13 @@
 Package: wtfdbg
-Title: What the Package Does (One Line, Title Case)
+Title: Debugging Practice For The What They Forgot To Teach You About R Workshop
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Shannon", "Pileggi", , "shannon@pipinghotdata.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: An intentionally buggy package to facilitate practice of debugging
+  other's code for the RStudio Conference Workshop What They Forgot To Teach You About R.
+  The fruit_avg() example is from Jenny Bryan's rstudio::conf(2020) keynote
+  Object of type 'closure' is not subsettable.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
