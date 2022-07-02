@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# wtfdbg
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This is an intentionally buggy package to facilitate practice of debugging
+other's code for the RStudio Conference Workshop _What They Forgot To Teach You About R_.
+
+
+The `fruit_avg()` function is from Jenny Bryan's rstudio::conf(2020) keynote
+_Object of type 'closure' is not subsettable_ <https://github.com/jennybc/debugging>.
+
+Associated exercises are at <https://github.com/rstats-wtf/wtf-debugging>.
+
+## Installation
+
+You can install the development version of `wtfdbg` from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rstats-wtf/wtfdbg")
+```
+
+## This works
+
+
+```{r example-works}
+library(wtfdbg)
+fruit_avg(fruit, "berry")
+```
+
+## This does not
+
+```{r example-fail, error = TRUE}
+fruit_avg(fruit, "peach")
+```
+
+
+Can you use debugging tools to figure out why?
