@@ -18,14 +18,15 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-This is an intentionally buggy package to facilitate practice of debugging
-other's code for the RStudio Conference Workshop _What They Forgot To Teach You About R_.
+This package is to facilitate debugging practice for the RStudio Conference 
+Workshop _What They Forgot To Teach You About R_.
 
 
 The `fruit_avg()` function is from Jenny Bryan's rstudio::conf(2020) keynote
 _Object of type 'closure' is not subsettable_ <https://github.com/jennybc/debugging>.
 
-Associated exercises are at <https://github.com/rstats-wtf/wtf-debugging>.
+Workshop exercises are at <https://github.com/rstats-wtf/wtf-debugging>. Use
+of the `wtfdb` package corresponds to `03_exercise`: debugging others' code.
 
 ## Installation
 

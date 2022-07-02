@@ -6,16 +6,16 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This is an intentionally buggy package to facilitate practice of
-debugging other’s code for the RStudio Conference Workshop *What They
-Forgot To Teach You About R*.
+This package is to facilitate debugging practice for the RStudio
+Conference Workshop *What They Forgot To Teach You About R*.
 
 The `fruit_avg()` function is from Jenny Bryan’s rstudio::conf(2020)
 keynote *Object of type ‘closure’ is not subsettable*
 <https://github.com/jennybc/debugging>.
 
-Associated exercises are at
-<https://github.com/rstats-wtf/wtf-debugging>.
+Workshop exercises are at <https://github.com/rstats-wtf/wtf-debugging>.
+Use of the `wtfdb` package corresponds to `03_exercise`: debugging
+others’ code.
 
 ## Installation
 
