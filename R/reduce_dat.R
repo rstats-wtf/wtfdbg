@@ -9,5 +9,5 @@
 #' @examples
 #' reduce_dat(fruit, 1:2)
 reduce_dat <- function(dat, cols){
-  dat[ , cols]
+  dat[ , cols, drop = FALSE]
 }

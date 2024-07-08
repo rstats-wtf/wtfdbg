@@ -1,6 +1,6 @@
 Package: wtfdbg
 Title: What They Forgot To Teach You About R Debugging Practice
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Shannon", "Pileggi", , "shannon@pipinghotdata.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
